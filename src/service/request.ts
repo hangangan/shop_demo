@@ -72,6 +72,8 @@ axiosInstance.interceptors.request.use(
 	}
 );
 
+export default axiosInstance;
+
 /**
  * @description: 用户登录
  * @params {ILogin} params

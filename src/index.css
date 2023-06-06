@@ -16,3 +16,10 @@ body {
 	justify-content: center;
 	flex-direction: column;
 }
+
+.arco-image {
+	position: static;
+	display: inline-block;
+	border-radius: var(--border-radius-small);
+	vertical-align: middle;
+}

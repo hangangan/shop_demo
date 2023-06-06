@@ -13,6 +13,22 @@
 		font-size: 16px;
 		font-weight: 600;
 	}
+	.nav {
+		transition: all 0.1s ease-in-out;
+		&:hover {
+			color: rgb(122, 231, 255);
+			border-bottom: 1px solid rgb(122, 231, 255);
+		}
+	}
+	.User {
+		margin-left: 3px;
+		font-size: 14px;
+		transition: all 0.1s ease-in-out;
+		&:hover {
+			color: rgb(122, 231, 255);
+			border-bottom: 1px solid rgb(122, 231, 255);
+		}
+	}
 	.Login {
 		cursor: pointer;
 		&:active {

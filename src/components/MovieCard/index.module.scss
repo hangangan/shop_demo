@@ -1,0 +1,27 @@
+.MovieItem {
+	width: 210px;
+	padding: 20px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	transition: all 0.2s ease-in;
+	cursor: pointer;
+	&:hover {
+		background-color: rgb(241, 241, 241);
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+	}
+	.Desc {
+		max-width: 210px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 2;
+		-webkit-box-orient: vertical;
+	}
+}
+
+.MovieMore {
+	display: flex;
+	justify-content: space-between;
+	.MovieItem {
+		width: 150px;
+	}
+}
