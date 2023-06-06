@@ -1,25 +1,17 @@
 import { Navigate } from 'react-router-dom';
-import Page1 from '../pages/Page1';
-import Page2 from '../pages/Page2';
-import Page3 from '../pages/Page3';
-
+import Home from '../pages/Home';
+import My from '../pages/My';
 export default [
 	{
-		path: '/page1',
-		element: <Page1 />,
-		children: [
-			{
-				path: 'msg',
-				element: <Page3 />
-			}
-		]
+		path: '/home',
+		element: <Home />
 	},
 	{
-		path: '/page2',
-		element: <Page2 />
+		path: '/my',
+		element: <My />
 	},
 	{
 		path: '/',
-		element: <Navigate to="/page1" />
+		element: <Navigate to="/home" />
 	}
 ];

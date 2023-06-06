@@ -1,0 +1,16 @@
+{
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.prettierPath": "infra/node_modules/prettier",
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"scss.lint.unknownAtRules": "ignore",
+	"editor.quickSuggestions": {
+		"strings": true
+	}
+}
