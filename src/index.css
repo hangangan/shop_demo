@@ -23,3 +23,7 @@ body {
 	border-radius: var(--border-radius-small);
 	vertical-align: middle;
 }
+
+.arco-btn {
+	position: static;
+}

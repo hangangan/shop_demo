@@ -1,4 +1,8 @@
 .navActive {
-	color: rgb(122, 231, 255);
-	font-weight: 600;
+	color: #687f9c;
+	font-size: 38px;
+	transition: all 0.1s ease-in-out;
+	&:hover {
+		color: rgb(232, 248, 255);
+	}
 }

@@ -1,9 +1,11 @@
 .Header {
-	color: #fff;
-	height: 65px;
-	padding: 0 40px 0 35px;
+	position: fixed;
+	width: 100%;
+	color: #2664bb;
+	height: 200px;
+	padding: 0 80px;
 	box-sizing: border-box;
-	background-color: rgb(3, 37, 65);
+	background-color: rgb(240, 179, 179);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -14,25 +16,11 @@
 		font-weight: 600;
 	}
 	.nav {
+		color: rgb(232, 248, 255);
+		font-size: 38px;
 		transition: all 0.1s ease-in-out;
 		&:hover {
-			color: rgb(122, 231, 255);
-			border-bottom: 1px solid rgb(122, 231, 255);
-		}
-	}
-	.User {
-		margin-left: 3px;
-		font-size: 14px;
-		transition: all 0.1s ease-in-out;
-		&:hover {
-			color: rgb(122, 231, 255);
-			border-bottom: 1px solid rgb(122, 231, 255);
-		}
-	}
-	.Login {
-		cursor: pointer;
-		&:active {
-			color: rgb(122, 231, 255);
+			color: #687f9c;
 		}
 	}
 }

@@ -17,8 +17,8 @@ export const userSlice = createSlice({
 				isLogin: true
 			};
 		},
-		logoutAction: (state) => {
-			state = initialState;
+		logoutAction: () => {
+			// state = initialState;
 		}
 	}
 });

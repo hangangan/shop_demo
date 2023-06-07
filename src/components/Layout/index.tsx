@@ -4,7 +4,7 @@ import MyFooter from '../Footer';
 import { Layout } from '@arco-design/web-react';
 import { useRoutes } from 'react-router-dom';
 import routes from '../../routes';
-import styles from './index.module.scss';
+// import styles from './index.module.scss';
 
 const Header = Layout.Header;
 const Footer = Layout.Footer;
@@ -26,16 +26,16 @@ const MyLayout: React.FC = () => {
 						position: 'fixed',
 						left: '0',
 						top: '0',
-						right: '0'
+						right: '0',
+						zIndex: '999'
 					}}
 				>
 					<MyHeader />
 				</Header>
 				<Content
 					style={{
-						minHeight: 'calc(100vh - 65px)',
-						marginTop: '65px',
-						padding: '0 40px'
+						minHeight: 'calc(100vh - 200px)',
+						marginTop: '200px'
 					}}
 				>
 					<div>{element}</div>

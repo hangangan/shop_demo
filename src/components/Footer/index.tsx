@@ -5,9 +5,8 @@ const Footer: React.FC = () => {
 	return (
 		<div className={styles.Footer}>
 			<ul className="flexClmCenter" style={{ lineHeight: '25px' }}>
-				<li>©2023 - 2024 By HHU_软开课设_秦岭组</li>
-				<li>团队成员：韩耀杰、李雅慧、TC、JX</li>
-				<li>欢迎体验我们的电影推荐系统！</li>
+				<li>©2023 - 2024 By HHU_实践课_HYJ</li>
+				<li>快来品尝一下我们的饮品吧！</li>
 			</ul>
 		</div>
 	);
