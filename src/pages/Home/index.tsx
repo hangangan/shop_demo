@@ -97,6 +97,15 @@ const Home: React.FC = () => {
 						<Button
 							style={{ width: '80px', marginBottom: '8px' }}
 							onClick={() => {
+								if (
+									(key === 'Coca' &&
+										(coffeeState.num > 0 || cocaState.num > 0)) ||
+									(key === 'Coffee' &&
+										(coffeeState.num > 0 || cocaState.num > 0))
+								) {
+									Message.error('售货机一次仅能制作一份饮料！');
+									return;
+								}
 								curPro.addPro();
 								Message.info(
 									`购买成功！当前购买${key}共${curPro.getNum()}件，总计购买${key}共${curPro.getPayPrice()}元。`

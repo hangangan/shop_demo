@@ -117,7 +117,6 @@ export function selectProFactory(selectKey: SelectKey): ProjectType {
 			return Coca();
 		case 'coffee':
 			return Coffee();
-
 		case 'milk':
 			return Milk();
 		case 'ice':
