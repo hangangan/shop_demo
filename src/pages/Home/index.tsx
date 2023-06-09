@@ -227,8 +227,12 @@ const Home: React.FC = () => {
 						height="50px"
 						className={styles.buyImg}
 						onClick={() => {
-							Message.info('购买成功，请在账单中进行确认！');
-							setVisible(true);
+							if (cocaState.num === 0 && coffeeState.num === 0) {
+								Message.error('请至少选择一杯Coca或者Coffee');
+							} else {
+								Message.info('购买成功，请在账单中进行确认！');
+								setVisible(true);
+							}
 						}}
 					/>
 				</div>
